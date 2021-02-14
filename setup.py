@@ -12,6 +12,6 @@ setup(name='stock2csv',
        author_email='adam2.siwiec@gmail.com',
        url='https://github.com/adamsiwiec1/stock2csv',
        # options={'py2exe': {'bundle_files': 2}},
-      windows=[{'script': 'stock2csv.py'}],
-      zipfile=None
+      # windows=[{'script': 'stock2csv.py'}]
+      console=['stock2csv.py']
       )
